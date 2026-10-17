@@ -1,0 +1,6 @@
+{
+  "name": "RoomieSplit",
+  "description": "Shared expense splitting and monthly settlement tracker with bill receipt attachments and WhatsApp summaries for housemates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "flats": {
+      "path": "flats/{flatId}",
+      "fields": {
+        "name": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      }
+    },
+    "members": {
+      "path": "flats/{flatId}/members/{memberId}",
+      "fields": {
+        "id": { "type": "number" },
+        "name": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "colorHex": { "type": "string" },
+        "notes": { "type": "string" },
+        "isArchived": { "type": "boolean" },
+        "createdAt": { "type": "timestamp" }
+      }
+    },
+    "expenses": {
+      "path": "flats/{flatId}/expenses/{expenseId}",
+      "fields": {
+        "title": { "type": "string" },
+        "amountCents": { "type": "number" },
+        "category": { "type": "string" },
+        "dateMillis": { "type": "number" },
+        "payerMemberId": { "type": "number" },
+        "notes": { "type": "string" },
+        "receiptImagePath": { "type": "string" },
+        "splitMemberIds": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      }
+    }
+  }
+}
